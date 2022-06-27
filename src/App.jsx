@@ -6,7 +6,7 @@ function App() {
     
   //TODO CHANGE OF THE BACKCGROUNDCOLOR AND COLOR BY RANDOM WAY INCLUDE BACKGROUNDS'S BODY
   
-  const colors = ["#023047" ,"#264653" ,"#fb5607" ,"#606c38" ,"#006d77" ,"#d62828" ,"#3a86ff"]
+  const colors = ["#023047" ,"#264653" ,"#fb5607" ,"#606c38" ,"#006d77" ,"#d62828" ,"#3a86ff", "#8d99ae", "#a9def9","#7209b7"]
   const colorRandom = Math.floor(Math.random() * colors.length)
   const [color, setColor] = useState(colors[colorRandom])
 

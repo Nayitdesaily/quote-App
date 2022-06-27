@@ -29,8 +29,8 @@ const QuoteBox = ({changeColor, color}) => { //TODO CREATE TWO PROPS, THE FIRST 
          <h2 style={{color:color}}>
             {quoteBox[index].author}
          </h2>
-         <button onClick={changeQuote} >
-            <FontAwesomeIcon icon={faSearch} style={{color:color}}/>
+         <button onClick={changeQuote} style={{backgroundColor:color}}>
+            <FontAwesomeIcon icon={faSearch} />
          </button>
       </div>
    )
