@@ -23,9 +23,7 @@ const QuoteBox = ({changeColor, color}) => { //TODO CREATE TWO PROPS, THE FIRST 
    }
    return (
       <div className='container-quote'>
-         <p style={{color:color}}>
-            <span>&lt;</span>{quoteBox[index].quote} <span>/&gt;</span>
-         </p>
+         <p style={{color:color}}>&lt; {quoteBox[index].quote} /&gt; </p>
          <h2 style={{color:color}}>
             {quoteBox[index].author}
          </h2>
